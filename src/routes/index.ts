@@ -3,6 +3,6 @@ import products from "./products";
 
 const router = express.Router();
 
-router.use('/alive', products);
+router.use('/', products);
 
 export default router;

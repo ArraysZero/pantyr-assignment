@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 
 export const getProducts = (req: Request, res: Response) => {
-	return res.send("getting orders");
+	return res.send(req.params.page);
 }
 
